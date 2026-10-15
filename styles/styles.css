@@ -454,3 +454,16 @@ footer .section:last-child p {
 @media (width < 900px) {
   .columns.hero-split h1 { font-size: 44px; }
 }
+/* footer legibility fix */
+footer,
+footer .footer,
+footer .footer > div,
+footer .section {
+  background-color: var(--ultra-ink) !important;
+  color: var(--bright-white);
+}
+
+footer strong { color: var(--bright-white); }
+footer p { color: rgb(255 255 255 / 80%); }
+footer .section:last-child p { color: rgb(255 255 255 / 60%); }
+footer a:any-link { color: var(--halo); }
