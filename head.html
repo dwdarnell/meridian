@@ -4,18 +4,15 @@
   move-to-http-header="true"
 />
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<script nonce="aem" src="/scripts/aem.js" type="module"></script>
-<script nonce="aem" src="/scripts/scripts.js" type="module"></script>
-<link rel="stylesheet" href="/styles/styles.css"/>
-<style id="alloy-prehiding">body{opacity:0!important}</style>
-<script>
+<style nonce="aem" id="alloy-prehiding">body{opacity:0!important}</style>
+<script nonce="aem">
   setTimeout(function(){var s=document.getElementById("alloy-prehiding");if(s){s.parentNode.removeChild(s);}},3000);
 </script>
-<script>
+<script nonce="aem">
   !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||[]).push(o),n[o]=function(){var u=arguments;return new Promise(function(i,l){n.setTimeout(function(){n[o].q.push([i,l,u])})})},n[o].q=[])})}(window,["alloy"]);
 </script>
-<script src="https://cdn1.adoberesources.net/alloy/2.26.0/alloy.min.js" async></script>
-<script>
+<script nonce="aem" src="https://cdn1.adoberesources.net/alloy/2.26.0/alloy.min.js" async></script>
+<script nonce="aem">
   alloy("configure", {
     datastreamId: "47a504f7-7b87-4424-8a64-bf0f65956bea",
     orgId: "0E061E2D61F93F260A495FD6@AdobeOrg"
